@@ -124,3 +124,41 @@
 
 Network slicing in 5G enables efficient resource allocation, improved reliability, and the ability to cater to diverse service requirements within a single network infrastructure.
 
+- **Software-Defined Networking (SDN)**: 5G embraces a software-oriented approach, implementing functionalities in generic software for interoperability. SDN offers centralized control, abstracts the underlying infrastructure, promotes innovation, and enhances cost-efficiency.
+- **Network Function Virtualization (NFV)**: NFV separates network functionalities from dedicated hardware, enabling them to run on commercial off-the-shelf hardware or in the cloud. It provides instant scalability, cost-effectiveness, and transparent service delivery.
+- **Edge Computing (MEC)**: MEC brings application servers closer to the network edge, reducing reliance on unreliable internet backhauls. This results in lower latency, improved security, enhanced bandwidth, and efficient real-time service delivery.
+
+These networking features empower 5G networks to provide low latency, high bandwidth, and superior user experiences, making them a substantial advancement in the telecommunications landscape. These principles address the challenges of modern, diverse, and demanding applications, ultimately shaping the future of network infrastructure.
+
+## Network Architecture Differences
+
+### Core Network Architecture:
+- **4G (LTE):**
+  - Component-based architecture with specific software and hardware for each service.
+- **5G:**
+  - Service-based architecture, focusing on the service provided rather than specific software and hardware.
+
+### Communication Protocols:
+- **4G:**
+  - Rigid and specific communication protocols.
+- **5G:**
+  - Generic interaction commands, making the architecture more flexible.
+
+### Radio Access Network (RAN):
+- **4G:**
+  - Limited to a few antennas.
+- **5G:**
+  - Supports massive MIMO with many more antennas.
+
+### Virtualization:
+- **5G:**
+  - Allows some network intelligence to be moved to the cloud, improving flexibility.
+    
+## Deployment Modes
+
+### NSA vs. SA Deployment:
+- Network operators can choose between **NSA** (Non-Standalone) and **SA** (Standalone) modes.
+- In **NSA** mode, 5G is added as an additional layer on top of 4G, allowing the 4G network to continue serving where there is little demand.
+- **SA** mode requires upgrading every base station to 5G, which is more resource-intensive and costly.
+
+
