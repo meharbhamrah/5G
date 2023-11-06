@@ -329,3 +329,46 @@ When implementing 5G private networks for Industrial IoT, several factors need t
 
 - **5G PN and IIoT: Spectrum Options:** The available spectrum can significantly influence the performance and coverage of a 5G private network. Selecting the right spectrum is crucial for meeting the requirements of I-IoT applications.
 
+# Security in 5G
+
+Security in 5G networks is a critical aspect to protect user data, privacy, and network integrity. 5G networks implement various mechanisms to enhance security and privacy, catering to both 3GPP and non-3GPP access scenarios.
+
+## Enhanced System-Level Design
+
+- **3GPP:** In 5G, when a user attempts to access the 5G core network, it can be done over either a 5G public network or a 5G private network, but, at its core, it is a 5G RAN (Radio Access Network).
+
+- **Non-3GPP:** Non-3GPP access refers to using a different air interface or wireless technology than 5G, such as Wi-Fi. This can be beneficial in scenarios requiring temporary extra capacity and throughput, such as pop-up events.
+
+## Unified Authentication Framework
+
+- 5G networks employ a unified authentication framework that applies the same authentication process for both 3GPP and non-3GPP access.
+
+- Security levels can be tailored and scaled for a wide range of use cases and deployments, accommodating the needs of private networks, for example.
+
+- Non-SIM credentials can be used for security, making it suitable for various scenarios, including private networks.
+
+## Security Anchor Function (SEAF)
+
+- The security anchor function ensures that mobility and session management can be moved to the network edge without compromising security. This allows for efficient data transfer while maintaining robust security.
+
+- Physical security is highest at the core network level, ensuring the protection of user data.
+
+## Deeper Key Hierarchy
+
+- 5G networks implement a deeper key hierarchy, ensuring that fundamental security mechanisms, including security keys, are hosted in the home network. This means that, no matter where the user is located, they have an end-to-end secure data tunnel with their home network, preventing security compromises.
+
+## Improved Data Protection
+
+- 5G extends integrity protection from just the control plane to the user plane as well. This ensures that even user plane data, like images and emails, is protected from tampering by malicious attackers.
+
+- Encryption is applied to both control and user plane data, making it possible to decode data only by the intended user.
+
+## Protecting User Privacy
+
+- 5G networks use the International Mobile Subscriber Identity (IMSI) to identify users. However, to protect user privacy, the IMSI is not directly exposed to the network.
+
+- Temporary identifiers are used to provide a layer of privacy, ensuring that users can access services without revealing their full IMSI.
+
+- The network establishes security and authentication context in a step-by-step bootstrap manner, ensuring that user data is protected and sensitive information is sent only after robust security and authentication frameworks are fully established. This approach enhances user data security and privacy across a wide variety of user devices and applications.
+
+In summary, 5G networks implement comprehensive security measures to safeguard user data and privacy, allowing for secure and private access across a variety of access scenarios, including 3GPP and non-3GPP access.
